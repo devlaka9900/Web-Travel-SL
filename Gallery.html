@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="/css/navigation-bar.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+    <script src="/js/gallery.js"></script>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="brand">Sri Lanka</a>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <div class="navigation-items">
+        <a href="index.html">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="todo.html">To-Do</a>
+        <a href="contact.html" target="_blank">Contact</a>
+        <a href="faq.html" target="_blank">FAQ</a>
+      </div>
+    </div>
+  </header>
+      <div class="title">
+        <h2 style="padding-bottom: 2%;"">Why Sri Lanka?</h2>
+      </div>
+
+      <div class="main-01">
+        <p>The tropical climate, lovely seashores and extraordinary meals of Sri Lanka are simply a number of the various motives to encompass the South Asian u . s . in your journey desire list. In this island country called the Pearl of the Indian Ocean, you could examine records through traveling the historic rock castle of Sigiriya, witness a massive accumulating of Asian elephants in Minneriya National Park, or capture a few waves at Arugam Bay or Hikkaduwa.</p>
+      </div>
+
+      <div class="main-02">
+        <p style="padding-bottom: 2%;">Here You can explore some beautifull places</p>
+      </div>
+
+      <hr>
+      
+      <h2 style="color: #fff; padding-bottom: 1%;">Best Locations</h2>
+     <div id="myBtnContainer">
+       <button class="btn active" 
+       onclick="filterSelection('all')">Show All</button>
+       <button class="btn" onclick="filterSelection('Beach')">Beach</button>
+       <button class="btn" onclick="filterSelection('Hicking')">Hicking</button>
+       <button class="btn" onclick="filterSelection('Diving')">Diving</button>
+       <button class="btn" onclick="filterSelection('Hotels')">Hotels</button>
+       <button class="btn" onclick="filterSelection('Jungle')">Jungle</button>
+      </div>
+
+      <!--Portfolio gallery grid-->
+      <div class="row">
+        <div class="column Hicking">
+          <div class="content">
+            <img src="/images/ella.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>Alla Journey (Hike)</h4>
+            <p style="padding-bottom: 5%;">Alla is famus for hike and train ride. January and march is best time for visit alla.</p>
+            <a href="/ella.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+
+        <div class="column Hicking">
+          <div class="content">
+            <img src="/images/sigiriya.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>Sigiriya Hike (Hike)</h4>
+            <p style="padding-bottom: 5%;">Alla is famus for hike and train ride. January and march is best time for visit alla.</p>
+            <a href="/segiriya.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+
+        <div class="column Hicking">
+          <div class="content">
+            <img src="/images/adam.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>LITTLE ADAM’S PEAK (Hike)</h4>
+            <p style="padding-bottom: 5%;"> fairly easy hike and the path is marked by signs so it`s easy to find, and very popular among tourists!</p>
+            <a href="/adam.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+
+        <div class="column Hicking">
+          <div class="content">
+            <img src="/images/end.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>THE WORLD’S END (Hike)</h4>
+            <p style="padding-bottom: 5%;">World's End is located within the Horton Plains National Park in Nuwara Eliya District, Sri Lanka</p>
+            <a href="/content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="column Hicking">
+          <div class="content">
+            <img src="/images/end.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>Sinharaja Forest Reserve (Hike)</h4>
+            <p style="padding-bottom: 5%;">Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka. </p>
+            <a href="/content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+
+        <div class="column Hicking">
+          <div class="content">
+            <img src="/images/Bambarakanda.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>Bambarakanda Waterfall (Hike)</h4>
+            <p style="padding-bottom: 5%;">Bambarakanda Falls is the tallest waterfall in Sri Lanka. With a height of 263 m, it ranks as the 461st highest waterfall in the world.</p>
+            <a href="/content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+
+        <div class="column Hicking">
+          <div class="content">
+            <img src="/images/kitulgala.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>Waterfall Trekking Kitulgala (Hike)</h4>
+            <p style="padding-bottom: 5%;">Trekking is mainly focused in view of stunningly beautiful waterfalls hidden inside the rain forests in Kitulgala.</p>
+            <a href="/content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+
+        <div class="column Hicking">
+          <div class="content">
+            <img src="/images/Knuckles.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>Knuckles Mountains (Hike)</h4>
+            <p style="padding-bottom: 5%;">The dense forest, surrounded by 34 mystical mountains that range from 900 to 2,000 metres, is home to stunning hiking trails.</p>
+            <a href="https://www.muchbetteradventures.com/magazine/hiking-in-sri-lanka-5-of-the-best-hikes-in-sri-lanka/" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+        </div>
+ 
+        <!--BEACH PLACES-->
+        <div class="row">
+        <div class="column Beach">
+          <div class="content">
+            <img src="/images/arugam.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>Arugam Bay (Beach)</h4>
+            <p style="padding-bottom: 5%;">Ocean in the dry zone of Sri Lanka's southeast coast, and a historic settlement of the ancient Batticaloa Territory.</p>
+            <a href="/content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+
+        <div class="column Beach">
+          <div class="content">
+            <img src="/images/mirissaa.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>Mirissa (Beach)</h4>
+            <p style="padding-bottom: 5%;">This has to be the best place to visit in Sri Lanka.The food is amazing, the view is awesome,</p>
+            <a href="/content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+
+        <div class="column Beach">
+          <div class="content">
+            <img src="/images/una.jpg" alt="" style="width:100%;">
+            <h4 style="padding-bottom: 5%";>Unawatuna (Beach)</h4>
+            <p style="padding-bottom: 5%;">Unawatuna is a coastal town in Galle district of Sri Lanka.</p>
+            <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+          </div>
+        </div>
+
+          <div class="column Beach">
+            <div class="content">
+              <img src="/images/negam.jpg" alt="" style="width:100%;">
+              <h4 style="padding-bottom: 5%";>Negombo (Beach)</h4>
+              <p style="padding-bottom: 5%;">One of the best beaches in Negombo is Browns Beach.</p>
+              <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+            </div>
+          </div>
+          </div>
+          
+          <div class="row">
+          <div class="column Beach">
+            <div class="content">
+              <img src="/images/S02.jpg" alt="" style="width:100%;">
+              <h4 style="padding-bottom: 5%";>Mirissa (Beach)</h4>
+              <p style="padding-bottom: 5%;">One the beautifull beach in matara</p>
+              <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+            </div>
+          </div>
+  
+          <div class="column Beach">
+            <div class="content">
+              <img src="/images/S01.jpg" alt="" style="width:100%;">
+              <h4 style="padding-bottom: 5%";>Unawatuna (Beach)</h4>
+              <p style="padding-bottom: 5%;">coastal town in Galle district of Sri Lanka.</p>
+              <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+            </div>
+          </div>
+
+          <div class="column Beach">
+            <div class="content">
+              <img src="/images/S03.jpg" alt="" style="width:100%;">
+              <h4 style="padding-bottom: 5%";>Tangalle (Beach)</h4>
+              <p style="padding-bottom: 5%;"> Located in the south east end of Sri Lanka, Tangalle is the last town within the Sri Lankan border and is home to wide open beaches.</p>
+              <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+            </div>
+          </div>
+
+          <div class="column Beach">
+            <div class="content">
+              <img src="/images/S04.jpg" alt="" style="width:100%;">
+              <h4 style="padding-bottom: 5%";>Bentota (Beach)</h4>
+              <p style="padding-bottom: 5%;">Another one of beautifull beach click see more.</p>
+              <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+            </div>
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="column Diving">
+              <div class="content">
+                <img src="/images/D01.jpg" alt="" style="width:100%;">
+                <h4 style="padding-bottom: 5%";>Kalpitiya (Diving)</h4>
+                <p style="padding-bottom: 5%;">location for safe diving and exploring typical Sri Lankan coral reef and reef fishes.</p>
+                <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+              </div>
+            </div>
+
+            <div class="column Diving">
+              <div class="content">
+                <img src="/images/D02.jpg" alt="" style="width:100%;">
+                <h4 style="padding-bottom: 5%";>Hikkaduwa (Diving)</h4>
+                <p style="padding-bottom: 5%;">Most famous for coral</p>
+                <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+              </div>
+            </div>
+
+            <div class="column Diving">
+              <div class="content">
+                <img src="/images/D03.jpg" alt="" style="width:100%;">
+                <h4 style="padding-bottom: 5%";>Unawatuna (Diving)</h4>
+                <p style="padding-bottom: 5%;">location for safe diving and exploring typical Sri Lankan coral reef and reef fishes.</p>
+                <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+              </div>
+            </div>
+
+            <div class="column Diving">
+              <div class="content">
+                <img src="/images/dive.jpg" alt="" style="width:100%;">
+                <h4 style="padding-bottom: 5%";>Weligama (Diving)</h4>
+                <p style="padding-bottom: 5%;">Another one of beautifull place click see more</p>
+                <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+              </div>
+            </div>
+            </div>
+
+            <!--DIVING-->
+            <div class="row">
+              <div class="column Diving">
+                <div class="content">
+                  <img src="/images/D05.JPG" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Colombo (Diving)</h4>
+                  <p style="padding-bottom: 5%;">Another one of beautifull place click see more</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+  
+              <div class="column Diving">
+                <div class="content">
+                  <img src="/images/D06.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Trincomalee (Diving)</h4>
+                  <p style="padding-bottom: 5%;">Another one of beautifull place click see more</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+  
+              <div class="column Diving">
+                <div class="content">
+                  <img src="/images/D07.JPG" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Batticaloa (Diving)</h4>
+                  <p style="padding-bottom: 5%;">Another one of beautifull place click see more</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+  
+              <div class="column Diving">
+                <div class="content">
+                  <img src="/images/D08.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Weligama (Diving)</h4>
+                  <p style="padding-bottom: 5%;">Another one of beautifull place click see more</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+              </div>
+
+              <!--HOTELS-->
+            <div class="row">
+              <div class="column Hotels">
+                <div class="content">
+                  <img src="/images/H1.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Fort Bazaar (Hotels)</h4>
+                  <p style="padding-bottom: 5%;">One of the beautifull hotel. click see more</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+  
+              <div class="column Hotels">
+                <div class="content">
+                  <img src="/images/H2.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Fort Printers (Hotels)</h4>
+                  <p style="padding-bottom: 5%;">One of the beautifull hotel. click see more</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+  
+              <div class="column Hotels">
+                <div class="content">
+                  <img src="/images/H3.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Taru Villas (Hotels)</h4>
+                  <p style="padding-bottom: 5%;">One of the beautifull hotel. click see more</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+  
+              <div class="column Hotels">
+                <div class="content">
+                  <img src="/images/H4.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Tri (Hotels)</h4>
+                  <p style="padding-bottom: 5%;">One of the beautifull hotel. click see more</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+              </div>
+
+              <!--Hotels 2nd row-->
+              <div class="row">
+                <div class="column Hotels">
+                  <div class="content">
+                    <img src="/images/H5.jpg" alt="" style="width:100%;">
+                    <h4 style="padding-bottom: 5%";>The Long House (Hotels)</h4>
+                    <p style="padding-bottom: 5%;">One of the beautifull hotel. click see more</p>
+                    <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                  </div>
+                </div>
+    
+                <div class="column Hotels">
+                  <div class="content">
+                    <img src="/images/H6.jpg" alt="" style="width:100%;">
+                    <h4 style="padding-bottom: 5%";>Chena Huts (Hotels)</h4>
+                    <p style="padding-bottom: 5%;">One of the beautifull hotel. click see more</p>
+                    <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                  </div>
+                </div>
+    
+                <div class="column Hotels">
+                  <div class="content">
+                    <img src="/images/H7.jpg" alt="" style="width:100%;">
+                    <h4 style="padding-bottom: 5%";>Haritha Villas (Hotels)</h4>
+                    <p style="padding-bottom: 5%;">One of the beautifull hotel. click see more</p>
+                    <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                  </div>
+                </div>
+    
+                <div class="column Hotels">
+                  <div class="content">
+                    <img src="/images/H8.jpg" alt="" style="width:100%;">
+                    <h4 style="padding-bottom: 5%";>Green Eco (Hotels)</h4>
+                    <p style="padding-bottom: 5%;">One of the beautifull hotel. click see more</p>
+                    <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                  </div>
+                </div>
+                </div>
+
+                <!--Jungles-->
+            <div class="row">
+              <div class="column Jungle">
+                <div class="content">
+                  <img src="/images/J1.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Sinharaja Forest (Jungle)</h4>
+                  <p style="padding-bottom: 5%;">click see more to get more informaitons of this</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+  
+              <div class="column Jungle">
+                <div class="content">
+                  <img src="/images/J2.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";> Riverstone Gap (Jungle)</h4>
+                  <p style="padding-bottom: 5%;">click see more to get more informaitons of this</p>
+                  <a href="/content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+  
+              <div class="column Jungle">
+                <div class="content">
+                  <img src="/images/J3.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Makandawa Forest Reserve (Jungle)</h4>
+                  <p style="padding-bottom: 5%;">click see more to get more informaitons of this</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+  
+              <div class="column Jungle">
+                <div class="content">
+                  <img src="/images/J4.jpg" alt="" style="width:100%;">
+                  <h4 style="padding-bottom: 5%";>Kanneliya forest (Jungle)</h4>
+                  <p style="padding-bottom: 5%;">click see more to get more informaitons of this</p>
+                  <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                </div>
+              </div>
+              </div>
+
+              <!--Hotels 2nd row-->
+              <div class="row">
+                <div class="column Jungle">
+                  <div class="content">
+                    <img src="/images/J5.jpg" alt="" style="width:100%;">
+                    <h4 style="padding-bottom: 5%";>Riverstone Gap (Jungle)</h4>
+                    <p style="padding-bottom: 5%;">click see more to get more informaitons of this</p>
+                    <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                  </div>
+                </div>
+    
+                <div class="column Jungle">
+                  <div class="content">
+                    <img src="/images/J7.jpg" alt="" style="width:100%;">
+                    <h4 style="padding-bottom: 5%";>Mawaragala (Jungle)</h4>
+                    <p style="padding-bottom: 5%;">click see more to get more informaitons of this</p>
+                    <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                  </div>
+                </div>
+    
+                <div class="column Jungle">
+                  <div class="content">
+                    <img src="/images/J8.jpg" alt="" style="width:100%;">
+                    <h4 style="padding-bottom: 5%";>Yaala (Jungle)</h4>
+                    <p style="padding-bottom: 5%;">click see more to get more informaitons of this</p>
+                    <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                  </div>
+                </div>
+    
+                <div class="column Jungle">
+                  <div class="content">
+                    <img src="/images/J6.jpg" alt="" style="width:100%;">
+                    <h4 style="padding-bottom: 5%";>Riverstone Gap (Jungle)</h4>
+                    <p style="padding-bottom: 5%;">click see more to get more informaitons of this</p>
+                    <a href="content.html" target="_blank"><p style="text-align: center; background-color: rgb(0, 0, 0); color: white;">Read More...</p></a>
+                  </div>
+                </div>
+                </div>
+              <!--END-->
+              <div class="footer">
+                <p>&copy; by Lakshan Binura < 
+                  <a href="https://www.linkedin.com/in/binuralakshan/" target="_blank">LinkedIn</a>
+                   | 
+                   <a href="https://github.com/Binura-Lakshan" target="_blank">GitHub</a>/></p>
+              </div>
+      </div>
+      </body>
+      </html>
+
+
+
+
